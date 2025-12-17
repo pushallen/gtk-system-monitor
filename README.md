@@ -14,6 +14,7 @@ A lightweight system monitor for Linux written in Python and GTK3. It features a
 
 This project requires Python 3, GTK3, and the `psutil` library. You can install the system dependencies on Ubuntu/Debian based systems via `apt`.
 
+```bash
 sudo apt install python3-gi gir1.2-gtk-3.0 python3-psutil
 
 # File Structure
@@ -25,6 +26,7 @@ gtk-system-monitor/
 ├── cpu_graph.py
 ├── system_info.py
 ├── cpu_arch.py
+
 
 ## Usage
 python3 main.py
